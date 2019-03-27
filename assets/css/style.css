@@ -5,15 +5,27 @@ body {
   color: #777777;
   background: url("../images/mountains.jpg");
 }
-
+img{
+  border-color: plum;
+  border:solid 2px;
+}
 * {
   box-sizing: border-box;
 }
 
+#portfolio-container-container{
+  margin-top:40px;
+  width:90%;
+  background-color:ghostwhite;
+  padding-top:40px;
+  margin:auto;
+ 
+}
+.
 /* general */
 
 .container-fluid {
-  width: 80%;
+  width: 60%;
   
   margin: 0 auto;
   clear: both;
@@ -180,6 +192,10 @@ figcaption{
   text-align: center;
   background: #4aaaa5;
   border-bottom: 0;
+}
+.work col{
+  justify-content: center;
+  align-content: center;
 }
 
 .auth-image {
